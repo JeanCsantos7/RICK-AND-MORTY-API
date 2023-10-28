@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Inter:wght@600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oxanium&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>Rick and morty</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="logotipo_pc" src="./Assets/logotipo.png" alt="">
+        <a class="a" href="index.html"><img class="logotipo_mobile" src="./Assets/logotipo MOBILE.png" alt=""></a>
+        <div class="nav_bar">
+            <a id="PersonagensVivos" href="">VIVOS</a>
+            <a id="PersonagensMortos" href="">MORTOS</a>
+            <a id="PersonagensDesconhecidos" href="">DESCONHECIDOS</a>
+
+
+        </div>
+        <div class="menu_mobile">
+
+            <img class="" src="./Assets/menu hamburguer.png" alt="">
+        </div>
+
+    </header>
+
+    <div class="input">
+
+
+        <label for="">DIGITE O ID</label>
+        <input class="InputValue" type="text" required>
+        <button class="buttonInput">Buscar</button>
+
+    </div>
+
+
+
+    <main>
+
+
+
+
+        <div class="container">
+            <img class="cardImage" src="" alt="">
+            <h1 class="nomePersonagem"></h1>
+
+            <span class="status">
+                <img id="circulo" src="./Assets/circulo.png" alt="">
+                <p class="Situacao"></p>-
+                <h2 class="specie"></h2>
+
+
+
+            </span>
+
+
+            <h2 class="Localizacao">Localização</h2>
+            <p class="LocalPersonagem"></p>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </main>
+
+    <div class="controles">
+        <button class="btnAnt">Anterior</button>
+        <button class="btnProx">Próximo</button>
+
+
+    </div>
+
+    <div class="resultadoFiltro"></div>
+
+
+</body>
+<script src="./app.js"></script>
+
+</html>
